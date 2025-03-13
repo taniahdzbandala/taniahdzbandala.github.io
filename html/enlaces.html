@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enlaces en htmal</title>
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coiny&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            header, nav, main, footer{
+                width: 1280px;
+                padding: 40px;
+                background-color:salmon;
+                color: white;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: "Montserrat", sans-serif;
+            }
+            nav{
+                background-color: antiquewhite;
+            }
+            main{
+                background-color: lightsalmon;
+                height: auto;
+            }
+            section{
+                width: 900px;
+                height: auto;
+                background-color: salmon;
+                margin-bottom: 30px;
+                padding:40px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            header,footer{
+                text-align: center;
+            }
+            h1{
+                margin-bottom: 20px;
+            }
+            h6{
+                font-size: 12px;
+            }
+            nav ul{
+                text-align: center
+            }
+            nav ul li{
+                width: 90px;
+                background-color: darksalmon;
+                list-style-type: none;
+                display: inline-block;
+                padding: 10px;
+                text-align: center;
+                margin-left: 10px;
+                margin-right: 10px;
+                border-radius: 30px;
+                min-width: 100px;
+            }
+            p{
+                margin-top: 20px;
+            }
+            section a:visited, section a:link{
+                color: royalblue;
+                text-decoration: none;
+            }
+            section a:active{
+                color:yellow;
+            }
+            section a:hover{
+                color:darkblue;
+                font-weight: bold;
+            }
+            nav a:link, nav a:visited{
+                color:white;
+                text-decoration: none;
+            }
+            nav ul li:hover{
+                background-color: steelblue;
+            }
+            main nav{
+                width: 600px;
+            }
+             header a img {
+                width: auto;
+                height: auto;
+            }
+            header {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                font-family:  "Bebas Neue", sans-serif;
+                letter-spacing: .8em;
+                font-size: 25px;
+            }
+            footer a{
+            width: auto;
+            height: auto;
+            margin-left: 10px;
+            margin-right: 10px;
+            }
+            
+            footer a img {
+            width: 40px;
+            height: auto;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1>ENLACES</h1>
+            <a href="../index.html"><img src="../img/inicioblanco.png"></a>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="../html/Formatos.html">Formatos</a></li>
+                <li><a href="../html/Listas.html">Listas</a></li>
+                <li><a href="../html/enlaces.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/audio.html">Audio</a></li>
+                <li><a href="../html/videos.html">Video</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <section>
+                <h2 id="externo">Enlace externo</h2>
+                <p>Lorem ipsum dolor sit amet, <a href="http://www.google.com">Google</a> consectetur adipiscing elit. Praesent a dui ex. Donec quis vulputate nibh. Phasellus ultrices ultrices sagittis. Pellentesque vitae placerat mi. Nam commodo non augue in dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce suscipit, <a href="http://www.buap.mx">Benémerita Universidad Autónoma de Puebla</a> nisi vel sollicitudin consequat, nibh orci vehicula mauris, sit amet eleifend risus nulla eget magna. Nunc in hendrerit nunc, ac gravida libero.</p>
+                <p>Sed aliquet porta odio. Praesent condimentum urna ornare, fermentum massa at, cursus neque. Ut sed tempus felis. Nulla facilisi. Ut feugiat tincidunt sapien, malesuada consequat augue posuere tempor. Praesent justo ipsum, cursus ac blandit vitae, placerat quis mauris. Phasellus elit purus, interdum ut fringilla quis, iaculis non lorem. Donec vulputate odio non orci sollicitudin, nec fringilla odio ullamcorper. Etiam aliquet ex eget varius rutrum. Nunc cursus mollis mi ac aliquam. Sed venenatis diam eget arcu lobortis blandit. Curabitur varius massa at arcu posuere scelerisque.</p>
+                <p>Donec blandit placerat purus, quis pharetra metus condimentum a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam a vulputate ante. Etiam dolor velit, pellentesque at odio et, faucibus suscipit ante. Sed ipsum orci, maximus dapibus leo et, interdum mollis mi. Nunc ac magna dapibus, consectetur tortor nec, gravida ligula. In consequat tempor fringilla. Integer consectetur, nibh sit amet convallis sodales, nulla mauris mollis mi, eu tincidunt felis risus non est. Quisque sit amet dolor ac ipsum rutrum malesuada ac a tellus. Mauris ultricies, nibh ut dapibus volutpat, dui orci commodo justo, ac auctor lectus mauris non purus.</p>
+            </section>
+            
+            <section>
+                <h2 id="interno">Enlace interno</h2>
+                <p>Sed aliquet porta odio. <a href="../html/Formatos.html">Práctica de Formatos</a> Praesent condimentum urna ornare, fermentum massa at, cursus neque. Ut sed tempus felis. Nulla facilisi. Ut feugiat tincidunt sapien, malesuada consequat augue posuere tempor. <a href="../html/Listas.html">Práctica de Listas</a> Praesent justo ipsum, cursus ac blandit vitae, placerat quis mauris. Phasellus elit purus, interdum ut fringilla quis, iaculis non lorem. Donec vulputate odio non orci sollicitudin, nec fringilla odio ullamcorper. Etiam aliquet ex eget varius rutrum. Nunc cursus mollis mi ac aliquam. Sed venenatis diam eget arcu lobortis blandit. Curabitur varius massa at arcu posuere scelerisque.</p>
+                <p>In congue, dui at posuere pellentesque, ipsum felis facilisis sapien, faucibus commodo urna nibh in magna. Quisque ullamcorper quam ac rutrum porttitor. Aenean elementum, magna vel scelerisque dictum, nunc nisl hendrerit justo, non cursus est metus vitae nunc. Etiam in imperdiet erat. Nunc mattis erat sed suscipit fringilla. Nulla lacus sem, facilisis id gravida in, rhoncus ut nulla. Fusce sit amet nisl lectus. Integer sapien sem, bibendum in nibh vitae, efficitur accumsan ante. Aliquam pulvinar in neque ac euismod. Phasellus sem libero, mattis nec aliquam non, ultrices sit amet nisl. Sed bibendum porta nisi, id tincidunt enim fermentum vel. Quisque et augue ex. Fusce vestibulum sapien id eros feugiat, a ornare lectus pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque blandit erat arcu, ut rutrum nisl malesuada eget.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a dui ex. Donec quis vulputate nibh. Phasellus ultrices ultrices sagittis. Pellentesque vitae placerat mi. Nam commodo non augue in dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce suscipit, nisi vel sollicitudin consequat, nibh orci vehicula mauris, sit amet eleifend risus nulla eget magna. Nunc in hendrerit nunc, ac gravida libero.</p>
+            </section>
+            
+            <section>
+                <h2 id="email">Enlace a email</h2>
+                <p>In congue, dui at posuere pellentesque, <a href="mailto:taniabandala30570@gmail.com">Tania Hernández Bandala</a> ipsum felis facilisis sapien, faucibus commodo urna nibh in magna. Quisque ullamcorper quam ac rutrum porttitor. Aenean elementum, magna vel scelerisque dictum, nunc nisl hendrerit justo, non cursus est metus vitae nunc. Etiam in imperdiet erat. Nunc mattis erat sed suscipit fringilla. Nulla lacus sem, facilisis id gravida in, rhoncus ut nulla. Fusce sit amet nisl lectus. Integer sapien sem, bibendum in nibh vitae, efficitur accumsan ante. Aliquam pulvinar in neque ac euismod. Phasellus sem libero, mattis nec aliquam non, ultrices sit amet nisl. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a dui ex. Donec quis vulputate nibh. Phasellus ultrices ultrices sagittis. Pellentesque vitae placerat mi. Nam commodo non augue in dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce suscipit, nisi vel sollicitudin consequat, nibh orci vehicula mauris, sit amet eleifend risus nulla eget magna. Nunc in hendrerit nunc, ac gravida libero.</p>
+                <p>Sed aliquet porta odio. Praesent condimentum urna ornare, fermentum massa at, cursus neque. Ut sed tempus felis. Nulla facilisi. Ut feugiat tincidunt sapien, malesuada consequat augue posuere tempor. Praesent justo ipsum, cursus ac blandit vitae, placerat quis mauris. Phasellus elit purus, interdum ut fringilla quis, iaculis non lorem. Donec vulputate odio non orci sollicitudin, nec fringilla odio ullamcorper. Etiam aliquet ex eget varius rutrum. Nunc cursus mollis mi ac aliquam. Sed venenatis diam eget arcu lobortis blandit. Curabitur varius massa at arcu posuere scelerisque.</p>
+            </section>
+            
+            <section>
+                <h2 id="descarga">Enlace a descarga de archivo</h2>
+                <p>Lorem ipsum dolor sit amet, <a href="../pdf/GII-MIPYMES.pdf" download>Presentación MIPYMES</a> consectetur adipiscing elit. Praesent a dui ex. Donec quis vulputate nibh. Phasellus ultrices ultrices sagittis. Pellentesque vitae placerat mi. Nam commodo non augue in dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce suscipit, nisi vel sollicitudin consequat, nibh orci vehicula mauris, sit amet eleifend risus nulla eget magna. Nunc in hendrerit nunc, ac gravida libero.</p>
+                <p>Sed aliquet porta odio. Praesent condimentum urna ornare, fermentum massa at, cursus neque. Ut sed tempus felis. Nulla facilisi. Ut feugiat tincidunt sapien, malesuada consequat augue posuere tempor. Praesent justo ipsum, cursus ac blandit vitae, placerat quis mauris. Phasellus elit purus, interdum ut fringilla quis, iaculis non lorem. Donec vulputate odio non orci sollicitudin, nec fringilla odio ullamcorper. Etiam aliquet ex eget varius rutrum. Nunc cursus mollis mi ac aliquam. Sed venenatis diam eget arcu lobortis blandit. Curabitur varius massa at arcu posuere scelerisque.</p>
+                <p> Aenean elementum, magna vel scelerisque dictum, nunc nisl hendrerit justo, non cursus est metus vitae nunc. Etiam in imperdiet erat. Nunc mattis erat sed suscipit fringilla. Nulla lacus sem, facilisis id gravida in, rhoncus ut nulla. Fusce sit amet nisl lectus. Integer sapien sem, bibendum in nibh vitae, efficitur accumsan ante. Aliquam pulvinar in neque ac euismod. Phasellus sem libero, mattis nec aliquam non, ultrices sit amet nisl. Quisque et augue ex. Fusce vestibulum sapien id eros feugiat, a ornare lectus pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque blandit erat arcu, ut rutrum nisl malesuada eget.</p>
+            </section>
+            
+        </main>
+        <nav>
+            <ul>
+                <li><a href="#externo">Externo</a></li>
+                <li><a href="#interno">Interno</a></li>
+                <li><a href="#email">Email</a></li>
+                <li><a href="#descarga">Descarga</a></li>
+            </ul>
+        </nav>
+        
+        <footer>
+            <h6>Elaborado por Tania Vanesa Hernández Bandala</h6>
+            <br>
+            <a href="https://www.instagram.com/taniahdzb31/" target="_blank"><img src="../img/instagram.png"></a>
+            <a href="https://www.facebook.com/javier.camposverdes.3" target="_blank"><img src="../img/facebook.png"></a>
+            <a href="https://www.behance.net/taniabandala" target="_blank"><img  src="../img/behance.png"></a>
+        </footer>
+        
+    </body>
+
+
+
+
+
+
+
+
+</html>
+    
+    
+    
+    

@@ -1,0 +1,246 @@
+<!--
+    Facultad de Arquitectura
+    Colegio de Diseño Gráfico
+    Diseño de Interfaces Gráficas de Usuario
+    Hernández Bandala Tania Vanesa
+-->
+<html>
+    <head>
+        <title>Listas en html</title>
+        <style type=text/css>
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coiny&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+            *{
+            padding:0;
+            margin:0;
+            }
+            
+            header{
+                width: 1280px;
+                height> 100px;
+                background-color: darkviolet;
+                color:lavenderblush;
+                padding: 40px;
+                
+            }
+            nav{
+                 width: 1280px;
+                 height: auto;
+                 background-color:antiquewhite;
+                 padding: 40px;
+                margin-left: auto;
+                margin-right: auto;
+            }     
+            main{
+                width: 1280px;
+                height: auto;
+                background-color: plum;
+                padding: 40px;
+                margin-top: auto;
+            } 
+            footer{
+                width: 1280px;
+                height: auto;
+                background-color:mediumpurple;
+                padding: 40px;
+            }  
+            header,nav,main,footer{
+                margin-left: auto;
+                margin-right: auto;
+                font-family: "Montserrat", sans-serif;
+            } 
+            section{
+                width:900px;
+                height:auto;
+                background-color: antiquewhite;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding: 40px;
+                margin-left: auto;
+                margin-right: auto;
+            } 
+            header h1, footer h6{
+                text-align: center;
+            } 
+            footer h6{
+                color:lavenderblush;
+                font-size: 14px;
+            } 
+            h2,h3,h4,h5,h6{
+                margin-bottom: 20px;
+                color:mediumorchid;
+                font-family:  "Bebas Neue", sans-serif;
+                letter-spacing: .1em;
+            } 
+            p{
+                color:mediumpurple;
+            }
+            ol{
+                color:darkorchid;
+                padding: 30px;
+            }
+            ul{
+                color: darkorchid;
+                margin-left: 30px;
+                margin-top: 20px;
+            }
+            ol ul{
+                margin-top: 0; 
+                margin-left: 20px;
+            }
+            nav ul{
+                text-align: center
+            }
+            nav ul li{
+                width: 90px;
+                height: auto;
+                background-color: plum;
+                list-style-type: none;
+                display: inline-block;
+                padding: 10px;
+                text-align: center;
+                margin-left: 10px;
+                margin-right: 10px;
+                border-radius: 30px;
+                min-width: 100px;
+            }
+            nav ul li a {
+                color: papayawhip;
+                text-decoration: none; 
+            }
+            nav ul li:hover{
+                background-color: mediumpurple;
+            }
+             header a img {
+                width: auto;
+                height: auto;
+            }
+            header {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                font-family:  "Bebas Neue", sans-serif;
+                font-size: 25px;
+                letter-spacing: .4em;
+            }
+            footer {
+            text-align: center;
+            }
+
+            .footer-content {
+                display: inline-block;
+                align-items: center;
+            }
+
+            footer a {
+                margin: 5px;
+            }
+
+            footer a img {
+                width: 40px;
+                height: auto;
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1>LISTAS EN HTML</h1>
+            <a href="../index.html"><img src="../img/inicioblanco.png"></a>
+        </header>
+        <nav>
+            <ul>
+               <li><a href="../html/Formatos.html">Formatos</a></li>
+                <li><a href="../html/Listas.html">Listas</a></li>
+                <li><a href="../html/enlaces.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/audio.html">Audio</a></li>
+                <li><a href="../html/videos.html">Video</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Listas ordenadas</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum ullamcorper congue. Nam convallis suscipit luctus. Phasellus sed magna neque. Morbi at purus scelerisque, bibendum massa nec, consequat tellus. Sed congue porta mollis. Duis risus tortor, congue vel nunc auctor, blandit vestibulum odio. Pellentesque facilisis velit orci, at accumsan risus pellentesque ac. Morbi feugiat quam ac dolor varius, at vestibulum dui aliquet. Vivamus fermentum sed neque nec fermentum. Aliquam vitae tempor nisi. Aliquam porttitor luctus dui vitae interdum. Proin id lorem dolor.</p>
+                <ol>
+                    <li>Canadá</li>
+                    <li>Chile </li>
+                    <li>Ecuador</li>
+                    <li>El Salvador</li>
+                    <li>Guatemala</li>
+                    <li>Italia</li>
+                    <li>Malasia</li>
+                    <li>México</li>
+                    <li>Países Bajos</li>
+                    <li>Portugal</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Listas desordenadas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis vulputate magna, eu malesuada risus. Nunc in massa non neque suscipit placerat vitae vitae risus. Mauris maximus in enim vitae sollicitudin. In hac habitasse platea dictumst. Maecenas semper, nibh a tincidunt iaculis, velit lacus sodales turpis, in blandit magna quam nec leo. Sed non vehicula elit. Nullam lobortis purus nec.</p>
+                <ul>
+                    <li>Aguascalientes</li>
+                    <li>Baja California </li>
+                    <li>Baja California Sur</li>
+                    <li>Campeche</li>
+                    <li>Chiapas</li>
+                    <li>Chihuahua </li>
+                    <li>Ciudad de México</li>
+                    <li>Coahuila </li>
+                    <li>Colima </li>
+                    <li>Durango</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Listas mixtas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae viverra enim. Nunc dapibus augue ut augue finibus, in mattis metus lacinia. Pellentesque eleifend tincidunt quam, ut rutrum sem consectetur ac. Nunc tempor faucibus turpis, eget consequat sem consectetur at. Praesent quis nisl in mi malesuada facilisis nec porta justo. Cras semper dolor sed diam tempor porta. Curabitur commodo malesuada ullamcorper. Mauris pretium finibus ipsum nec efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam semper facilisis lacus, eu mattis tortor tristique at. Aenean venenatis felis a.</p>
+                <ol>
+                    <li>Chilchotla</li>
+                    <li>Huauchinango</li>
+                    <li>Amozoc</li>
+                        <ul>
+                            <li>Paso del Arroyo</li>
+                            <li>La Loma</li>
+                            <li>El pozo</li>
+                        </ul>
+                    <li>Tepeaca</li>
+                    <li>Puebla</li>
+                        <ul>
+                            <li>San Manuel</li>
+                            <li>Amalucan</li>
+                            <li>San Ramon</li>
+                            <li>Mèxico 68</li>
+                            <li>El Carmen</li>
+                            <li>La paz</li>
+                        </ul>
+                    <li>Quecholac</li>
+                    <li>Cholula</li>
+                        <ul>
+                            <li>San Cristobal Tulcingo</li>
+                            <li>Las Calandrias</li>
+                            <li>Momoxpan</li>
+                            <li>El Pilar</li>
+                            <li>Zerezontla</li>
+                        </ul>
+                    <li>Cohetzala</li>
+                    <li>Tehuacán</li>
+                    <li>Zacatlán</li>
+                </ol>
+            </section>
+        
+        </main>
+        <footer>
+            <div class="footer-content">
+                <h6>Elaborado por: Tania Vanesa Hernández Bandala</h6>
+                <br>
+                <a href="https://www.instagram.com/taniahdzb31/" target="_blank"><img src="../img/instagram.png"></a>
+                <a href="https://www.facebook.com/javier.camposverdes.3" target="_blank"><img src="../img/facebook.png"></a>
+                <a href="https://www.behance.net/taniabandala" target="_blank"><img src="../img/behance.png"></a>
+            </div>
+        </footer>
+    
+    </body>
+
+</html>

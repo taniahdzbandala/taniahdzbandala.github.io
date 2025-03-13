@@ -1,0 +1,154 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Formularios en html</title>
+        
+        <link rel="stylesheet" href="../css/style5.css" type="text/css">
+        <style type="text/css">
+         main p{
+                padding-bottom: 30px;
+            }    
+        header a img {
+            width: auto;
+            height: auto;
+        }
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        footer a{
+            width: 20%;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+            
+        footer a img {
+            width: 40px;
+            height: auto;
+        }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1>FORMULARIOS</h1>
+            <a href="../index.html"><img src="../img/inicioblanco.png"></a>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="../html/Formatos.html">Formatos</a></li>
+                <li><a href="../html/Listas.html">Listas</a></li>
+                <li><a href="../html/enlaces.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/audio.html">Audio</a></li>
+                <li><a href="../html/videos.html">Video</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <section>
+                <h2>Formulario: Inicio de Sesión</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus at orci aliquam pretium. Vivamus iaculis sit amet nunc eget vehicula. Cras maximus, mauris eget molestie laoreet, lorem arcu sollicitudin enim, semper fringilla ligula erat eu est. Sed malesuada, augue eget sodales iaculis, erat eros commodo turpis, id porta tellus ex in ex. Praesent a massa non nisl iaculis malesuada. Sed pellentesque eleifend hendrerit. Praesent ultrices aliquam neque id eleifend.</p>
+                <form action="" method="get">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" value="">
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" value="">
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            
+            <section>
+                <h2>Formulario:Contacto</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus at orci aliquam pretium. Vivamus iaculis sit amet nunc eget vehicula. Cras maximus, mauris eget molestie laoreet, lorem arcu sollicitudin enim, semper fringilla ligula erat eu est. Sed malesuada, augue eget sodales iaculis, erat eros commodo turpis, id porta tellus ex in ex. Praesent a massa non nisl iaculis malesuada. Sed pellentesque eleifend hendrerit. Praesent ultrices aliquam neque id eleifend.</p>
+                <form action="" method="get">
+                    <label for="nombre-1">Nombre:</label>
+                    <input type="text" id="nombre-1" name="nombre-1" value="">
+                    <label for="correo">Email:</label>
+                    <input type="email" id="correo" name="correo" value="">
+                    <label for="comentario">Comentario:</label>
+                    <textarea name="comentario" rows="10" cols="100"> </textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            
+            <section>
+                <h2>Formulario</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus at orci aliquam pretium. Vivamus iaculis sit amet nunc eget vehicula. Cras maximus, mauris eget molestie laoreet, lorem arcu sollicitudin enim, semper fringilla ligula erat eu est. Sed malesuada, augue eget sodales iaculis, erat eros commodo turpis, id porta tellus ex in ex. Praesent a massa non nisl iaculis malesuada. Sed pellentesque eleifend hendrerit. Praesent ultrices aliquam neque id eleifend.</p>
+                <form action=""method="get">
+                    <label for="nombre-2">Nombre:</label>
+                    <input type="text" id="nombre-2" name="nombre-1" value="">
+                    <label for="genero">Género:</label>
+                    <br><br>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                    <label for="femenino">Femenino</label>
+                    <br><br>
+                    <label for="pais">¿De qué país nos visitas?</label>
+                    <select id="pais" name="pais">
+                        <option value="argentina">Argentina</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="ecuador">Ecuador</option>
+                        <option value="españa">España</option>
+                        <option value="estados_unidos">Estados Unidos</option>
+                        <option value="francia">Francia</option>
+                        <option value="italia">Italia</option>
+                        <option value="mexico">México</option>
+                        <option value="paraguay">Paraguay</option>
+                    </select>
+                    <br><br>
+                    <label for="turismo">Razón por la que visitas nuestro país</label>
+                    <br>
+                    <input type="checkbox" id="turismo-1" name="turismo-1" value="cultura">
+                    <label for="turismo-1">Cultura</label>
+                    <input type="checkbox" id="turismo-2" name="turismo-2" value="gastronomia">
+                    <label for="turismo-2">Gastronomia</label>
+                    <input type="checkbox" id="turismo-3" name="turismo-3" value="ecoturismo">
+                    <label for="turismo-3">Ecoturismo</label>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            
+            <section>
+                <h2>Formulario</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus at orci aliquam pretium. Vivamus iaculis sit amet nunc eget vehicula. Cras maximus, mauris eget molestie laoreet, lorem arcu sollicitudin enim, semper fringilla ligula erat eu est. Sed malesuada, augue eget sodales iaculis, erat eros commodo turpis, id porta tellus ex in ex. Praesent a massa non nisl iaculis malesuada. Sed pellentesque eleifend hendrerit. Praesent ultrices aliquam neque id eleifend.</p>
+                <form action="/action_page.php">
+                    <label for="nombre-3">Nombre:</label>
+                    <input type="text" id="nombre-3" name="nombre-3" value="">
+                    
+                    <label for="phone">Número telefónico:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    
+                    <label for="favcolor">Selecciona tu color Favorito:</label>
+                    <input type="color" id="favcolor" name="favcolor">
+                    
+                    <label for="birthday">Cumpleaños:</label>
+                    <input type="date" id="birthday" name="birthday">
+                    
+                    <label for="appt">Selecciona un horario de atención:</label>
+                    <input type="time" id="appt" name="appt">
+                    
+                    <label for="myfile">Sube aquí tus documentos en formato pdf:</label>
+                    <input type="file" id="myfile" name="myfile">
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            
+        </main>
+        
+        <footer>
+            <h6>Elaborado por: Tania Vanesa Hernández Bandala</h6>
+            <br>
+            <a href="https://www.instagram.com/taniahdzb31/" target="_blank"><img src="../img/instagram.png"></a>
+            <a href="https://www.facebook.com/javier.camposverdes.3" target="_blank"><img src="../img/facebook.png"></a>
+            <a href="https://www.behance.net/taniabandala" target="_blank"><img  src="../img/behance.png"></a>
+        </footer>
+        
+    </body>
+</html>

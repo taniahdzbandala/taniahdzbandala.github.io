@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coiny&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+*{
+     padding:0;
+     margin: 0;
+     box-sizing: border-box;
+}
+header, nav, main, footer{
+     background-color: firebrick; 
+     color: #ffb703; 
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    font-family:  "Bebas Neue", sans-serif;
+    letter-spacing: 1em;
+}
+ nav{
+     background-color: lightgoldenrodyellow; 
+     text-align: center;
+ }
+
+ nav ul li{
+     list-style-type: none;
+     display: inline-block;
+     background-color:   #ffb703; 
+     width:10%;
+     padding: 10px;
+     text-align: center;
+     border-radius: 30px;
+     min-width: 100px;
+     margin-bottom: 5px;
+     margin-top: 5px;
+ }
+
+nav ul li a:link, nav ul li a:visited{
+     text-decoration: none;
+     color:  darkred;
+ }
+
+nav ul li:hover{
+    background-color: lightsalmon;
+}
+
+section{
+    background-color: maroon; 
+     margin-top: 20px;
+     margin-bottom: 20px;
+     padding: 30px;
+     overflow-x: auto;
+}
+
+h2{
+    margin-bottom: 30px;
+    font-family:  "Bebas Neue", sans-serif;
+    font-size: 32px;
+    letter-spacing: .1em;
+}
+
+h1{
+     text-align: center;
+     font-size: 48px;
+}
+
+footer{
+     text-align: center;
+     height: auto;
+    width: auto;
+     background-color: darkred; 
+     font-size: 18px;
+}
+img{
+    width: 100%;
+     margin-top: 30px;
+}
+#gift{
+     background-color: black;
+}
+#img_gift{
+     width: 50%;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+}
+p{
+     margin-top: 20px;
+     line-height: 1.5em;
+}
+#img-border-redondo{
+    border-radius:50%;
+}
+.img_flotante{
+     width: 15%;
+     float: left;
+     margin-top: 0;
+     margin-right: 20px;
+}
+.alineacion{
+     float:right;
+}
+.fondo_box{
+     background-image: url("../img/planet-6215636.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.img_filter{
+     text-align: center;
+}
+.img_filter p, h2{
+     text-align: justify;
+}
+.img_filter img{
+     width: 20%;
+     margin: 20px;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coiny&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+*{
+     padding:0;
+     margin: 0;
+     box-sizing: border-box;
+}
+header{
+    background-color: pink; 
+    color: palevioletred;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 50px;
+    font-family:  "Bebas Neue", sans-serif;
+    letter-spacing: 1em;
+ }   
+nav, main, footer{
+     background-color: pink; 
+     color: papayawhip; 
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+nav{
+     background-color: papayawhip; 
+     text-align: center;
+ }
+
+nav ul li{
+     list-style-type: none;
+     display: inline-block;
+     background-color:   palevioletred; 
+     width:10%;
+     padding: 10px;
+     text-align: center;
+     border-radius: 30px;
+     min-width: 100px;
+     margin-bottom: 5px;
+     margin-top: 5px;
+ }
+
+nav ul li a:link, nav ul li a:visited{
+     text-decoration: none;
+     color:  moccasin;
+ }
+nav ul li:hover{
+    background-color: plum;
+}
+section{
+    background-color: palevioletred; 
+     margin-top: 20px;
+     margin-bottom: 20px;
+     padding: 30px;
+     overflow-x: auto;
+}
+
+h2{
+    margin-bottom: 30px;
+    font-family:  "Bebas Neue", sans-serif;
+    font-size: 32px;
+    letter-spacing: .1em;
+}
+
+h1{
+     text-align: center;
+     font-size: 48px;
+}
+
+footer{
+     text-align: center;
+     height: auto;
+    width: auto;
+     background-color: papayawhip; 
+     font-size: 18px;
+    color: palevioletred;
+}

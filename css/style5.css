@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coiny&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+*{
+     padding:0;
+     margin: 0;
+     box-sizing: border-box;
+}
+header{
+    background-color: coral; 
+    color: papayawhip;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 50px;
+    font-family:  "Bebas Neue", sans-serif;
+    letter-spacing: 1em;
+ } 
+nav, main, footer{
+    background-color: coral; 
+    color: #7d6e59 ;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 50px;
+    font-family: "Montserrat", sans-serif;
+ } 
+
+ nav{
+     background-color: papayawhip; 
+     text-align: center;
+ }
+
+ nav ul li{
+     list-style-type: none;
+     display: inline-block;
+     background-color:   #7d6e59; 
+     width:10%;
+     padding: 10px;
+     text-align: center;
+     border-radius: 30px;
+     min-width: 100px;
+     margin-bottom: 5px;
+     margin-top: 5px;
+ }
+
+nav ul li a:link, nav ul li a:visited{
+     text-decoration: none;
+     color:  papayawhip;
+ }
+nav ul li:hover{
+    background-color: salmon;
+}
+section{
+    background-color: papayawhip; 
+     margin-top: 20px;
+     margin-bottom: 20px;
+     padding: 30px;
+     overflow-x: auto;
+}
+form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: coral;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px; 
+}
+label{
+    color: papayawhip;
+    font-weight: bold;
+    font-size: 18px;
+}
+input, textarea,select{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: papayawhip;
+    font-size: 18px;
+}
+
+input[type=submit]{
+    width: 100%;
+    padding: 10px;
+    background-color:#7d6e59;
+    font-weight: bold;
+    color:antiquewhite;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display:block;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus, input[type=tel]:focus, input[type=date]:focus, input[type=color]:focus,input[type=time]:focus,input[type=file]:focus{
+    background-color: burlywood;
+    color:blueviolet;  
+}
+input[type=radio],input[type=checkbox]{
+    width: 10%;
+}
+h2{
+    margin-bottom: 30px;
+    font-family:  "Bebas Neue", sans-serif;
+    font-size: 32px;
+    letter-spacing: .1em;
+}
+
+h1{
+     text-align: center;
+     font-size: 48px;
+}
+
+footer{
+    width: auto;
+    height: auto;
+     text-align: center;
+     background-color: papayawhip; 
+     font-size: 18px;
+    color: #7d6e59;
+}

@@ -1,0 +1,121 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Audio en html</title>
+        <link rel="stylesheet" href="../css/style3.css" type="text/css">
+        <style type="text/css">
+            main{
+                text-align: center
+            }  
+            main section{
+                width: 40%;
+                height: 600px;
+                display: inline-block;
+                margin-left: 20px;
+                margin-right: 20px;
+                overflow-y: auto;
+            }   
+            main h2, p{
+                text-align: left
+            }  
+            main p{
+                padding-bottom: 30px;
+            } 
+            header a img {
+            width: auto;
+            height: auto;
+            }
+            header {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            footer a{
+            width: 20%;
+            margin-left: 10px;
+            margin-right: 10px;
+            }
+            
+            footer a img {
+            width: 40px;
+            height: auto;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1>AUDIOS</h1>
+            <a href="../index.html"><img src="../img/inicioblanco.png"></a>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="../html/Formatos.html">Formatos</a></li>
+                <li><a href="../html/Listas.html">Listas</a></li>
+                <li><a href="../html/enlaces.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/audio.html">Audio</a></li>
+                <li><a href="../html/videos.html">Video</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <section>
+                <h2>Audio Simple</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus at orci aliquam pretium. Vivamus iaculis sit amet nunc eget vehicula. Cras maximus, mauris eget molestie laoreet, lorem arcu sollicitudin enim, semper fringilla ligula erat eu est. Sed malesuada, augue eget sodales iaculis, erat eros commodo turpis, id porta tellus ex in ex. Praesent a massa non nisl iaculis malesuada. Sed pellentesque eleifend hendrerit. Praesent ultrices aliquam neque id eleifend.</p>
+                <audio controls>
+                    <source src="../audio/Cumbia%20del%20Norte%20-%20Jovenes%20Viejos%20_%20Cumbia%20Deli.mp3" type="audio/mp3">
+                    El navegador no soporta el formato del audio.
+                </audio>
+            </section>
+            
+            <section>
+                <h2>Audio con Autoplay y Silenciado</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus at orci aliquam pretium. Vivamus iaculis sit amet nunc eget vehicula. Cras maximus, mauris eget molestie laoreet, lorem arcu sollicitudin enim, semper fringilla ligula erat eu est. Sed malesuada, augue eget sodales iaculis, erat eros commodo turpis, id porta tellus ex in ex. Praesent a massa non nisl iaculis malesuada. Sed pellentesque eleifend hendrerit. Praesent ultrices aliquam neque id eleifend.</p>
+                <audio controls autoplay muted>
+                    <source src="../audio/House%20of%20Mango%20-%20Surf%20Ninja%203.mp3" type="audio/mp3">
+                    El navegador no soporta el formato del audio.
+                </audio>
+            </section>
+            
+            <section>
+                <h2>Audio con Reproducción ciclica</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus at orci aliquam pretium. Vivamus iaculis sit amet nunc eget vehicula. Cras maximus, mauris eget molestie laoreet, lorem arcu sollicitudin enim, semper fringilla ligula erat eu est. Sed malesuada, augue eget sodales iaculis, erat eros commodo turpis, id porta tellus ex in ex. Praesent a massa non nisl iaculis malesuada. Sed pellentesque eleifend hendrerit. Praesent ultrices aliquam neque id eleifend.</p>
+                <audio controls loop>
+                    <source src="../audio/African%20Fella%20-%20Cumbia%20Deli.mp3" type="audio/mp3">
+                    El navegador no soporta el formato del audio.
+                </audio>
+            </section>
+            
+            <section>
+                <h2>Audio de Repositorio: IVOOX</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus at orci aliquam pretium. Vivamus iaculis sit amet nunc eget vehicula. Cras maximus, mauris eget molestie laoreet, lorem arcu sollicitudin enim, semper fringilla ligula erat eu est. Sed malesuada, augue eget sodales iaculis, erat eros commodo turpis, id porta tellus ex in ex. Praesent a massa non nisl iaculis malesuada. Sed pellentesque eleifend hendrerit. Praesent ultrices aliquam neque id eleifend.</p>
+                <iframe src="https://www.ivoox.com/player_ej_286249_6_1.html?c1=7d6e59" width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" loading="lazy"></iframe>
+            </section>
+            
+            <section>
+                <h2>Audio de Repositorio: Spotify</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus at orci aliquam pretium. Vivamus iaculis sit amet nunc eget vehicula. Cras maximus, mauris eget molestie laoreet, lorem arcu sollicitudin enim, semper fringilla ligula erat eu est. Sed malesuada, augue eget sodales iaculis, erat eros commodo turpis, id porta tellus ex in ex. Praesent a massa non nisl iaculis malesuada. Sed pellentesque eleifend hendrerit. Praesent ultrices aliquam neque id eleifend.</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2zU8pHOx5mpATlzfmf2qC6?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+            
+            <section>
+                <h2>Audio de reproducción: Spotify</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus at orci aliquam pretium. Vivamus iaculis sit amet nunc eget vehicula. Cras maximus, mauris eget molestie laoreet, lorem arcu sollicitudin enim, semper fringilla ligula erat eu est. Sed malesuada, augue eget sodales iaculis, erat eros commodo turpis, id porta tellus ex in ex. Praesent a massa non nisl iaculis malesuada. Sed pellentesque eleifend hendrerit. Praesent ultrices aliquam neque id eleifend.</p>
+               <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/15N3ak4ooy8kxF03kijXHo?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+        </main>
+        
+        <footer>
+            <h6>Elaborado por: Tania Vanesa Hernández Bandala</h6>
+             <br>
+            <a href="https://www.instagram.com/taniahdzb31/" target="_blank"><img src="../img/instagram.png"></a>
+            <a href="https://www.facebook.com/javier.camposverdes.3" target="_blank"><img src="../img/facebook.png"></a>
+            <a href="https://www.behance.net/taniabandala" target="_blank"><img  src="../img/behance.png"></a>
+        </footer>
+        
+    </body>
+</html>
